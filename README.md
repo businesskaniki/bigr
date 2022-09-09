@@ -5,7 +5,7 @@
 
 ## live demo at :
 
-(kings and queens)[https://the-great-businesskaniki-site.netlify.app/]
+[kings and queens](https://the-great-businesskaniki-site.netlify.app/)
 
 
 ## Built With
@@ -62,7 +62,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- (nelson sakwa)[https://creativecommons.org/licenses/by-nc/4.0/]
+- [nelson sakwa](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## 📝 License
 

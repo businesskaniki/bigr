@@ -9,8 +9,8 @@ function Detail() {
   const {
     brand,
     name,
-    price, image_link, product_link, website_link, rating, category,
-    product_type, tag_list, created_at, updated_at,
+    price, image_link, website_link, rating, category,
+    product_type, description, created_at, updated_at,
   } = makeups;
   return (
     <div className="detailcontainer">
@@ -32,20 +32,15 @@ function Detail() {
         className="detail"
       />
       <div>
-        <p className="name">{name}</p>
-        <small className="name">{price}</small>
-        <p className="name">{product_link}</p>
-        <p className="name">{website_link}</p>
-        <p className="name">{rating}</p>
-        <p className="name">
-          {category}
-
-        </p>
-        <p className="name">{product_type}</p>
-        <p className="name">{tag_list}</p>
-        <p className="name">{created_at}</p>
-        <p className="name">{updated_at}</p>
-
+        <p className="nm">{name}</p>
+        { !price || <p className="name">{`price in usd: ${price}$`}</p>}
+        { !website_link || <p className="name">{`for more information follow this link ${website_link}`}</p>}
+        { !rating || <p className="name">{`rated at ${rating} stars`}</p>}
+        { !category || <p className="name">{` put under the category  ${category}`}</p>}
+        { !product_type || <p className="name">{`product type ${product_type}`}</p>}
+        { !created_at || <p className="name">{`posted on this foroum at: ${created_at}`}</p>}
+        { !updated_at || <p className="name">{`updated on:  ${updated_at}`}</p>}
+        { !description || <p className="desc">{`${description}`}</p>}
       </div>
     </div>
   );

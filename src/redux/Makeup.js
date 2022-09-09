@@ -1,9 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 const APPURL = 'http://makeup-api.herokuapp.com/api/v1/products.json';
-const initialstate = ['dont be in a hurry ........', 'dont be in a hurry ........',
-  'dont be in a hurry ........',
-  'dont be in a hurry ........', 'hhh'];
+export const initialstate = [];
 const GETMAKEUP = 'components/home/GET_MAKEUP';
 
 export const getmakeup = createAsyncThunk(

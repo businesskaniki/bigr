@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Qwitcher+Grypen:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: rgb(65, 105, 225);
+}
+
+.left {
+  display: none;
+  align-items: center;
+}
+
+.span {
+  display: none;
+}
+
+.bigcontainer {
+  background-color: red;
+  padding: 70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+}
+
+.main {
+  display: flex;
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 100px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.grid {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 20px;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  background-color: rgb(65, 105, 225);
+}
+
+.item {
+  position: relative;
+  height: 200px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  border: 1px solid rgb(65, 105, 225);
+}
+
+.item h3 {
+  text-align: left;
+  padding: 0.5rem;
+  font-weight: 200;
+  border: 1px black;
+}
+
+.text {
+  background-color: #6495ed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  position: relative;
+}
+
+.search {
+  background-color: #6495ed;
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+.search h2 {
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-weight: 900;
+  font-size: 68px;
+  font-style: italic;
+  color: white;
+}
+
+.form {
+  position: absolute;
+  right: 40%;
+  top: 50%;
+}
+
+.stext {
+  font-weight: 900;
+  color: white;
+  padding-left: 10px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6495ed;
+  outline: none;
+  box-shadow: -9px 9px 7px 2px rgba(65, 105, 225);
+  -webkit-box-shadow: -9px 9px 7px 2px rgba(65, 105, 225, 0.75);
+}
+
+.sbtn {
+  color: white;
+  font-size: xx-small;
+  font-weight: 600;
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+  margin-left: 3px;
+  background-color: #6495ed;
+  padding: 1px;
+  border: none;
+  box-shadow: -5px 5px 7px 0 rgba(65, 105, 225, 0.75);
+  -webkit-box-shadow: -5px 5px 7px 0 rgba(65, 105, 225, 0.75);
+  -moz-box-shadow: -5px 5px 7px 0 rgba(65, 105, 225, 0.75);
+}
+
+.contaier {
+  background-color: #6495ed;
+}
+
+.btn {
+  color: #6495ed;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  font-size: 30px;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.title p {
+  width: 100%;
+}
+
+.detailcontainer {
+  position: absolute;
+  background-color: #6495ed;
+  padding: 10px;
+}
+
+.detailcontainer h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+  padding-bottom: 6px;
+  text-transform: capitalize;
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.detail {
+  height: 200px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.navigation {
+  cursor: pointer;
+  color: rgb(65, 105, 225);
+}
+
+.name {
+  background-color: rgb(65, 105, 225);
+  width: 100%;
+  padding: 7px;
+  margin-top: 4px;
+  height: 30px;
+}
+
+/* `it is put in the category : ${category}` */
+
+/* <p className="name">{ category}</p> */

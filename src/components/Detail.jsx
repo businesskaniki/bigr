@@ -13,7 +13,7 @@ function Detail() {
     product_type, description, created_at, updated_at,
   } = makeups;
   return (
-    <div className="detailcontainer">
+    <div className="detailcontainer" role="list">
       <h2>
         {' '}
         <span>

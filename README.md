@@ -7,6 +7,9 @@
 
 [kings and queens](https://the-great-businesskaniki-site.netlify.app/)
 
+## video guide 
+[video](https://www.loom.com/share/3ab555b785034b79adda20fef88f37e4)
+
 
 ## Built With
 

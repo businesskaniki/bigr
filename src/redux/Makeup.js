@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-const APPURL = 'http://makeup-api.herokuapp.com/api/v1/products.json';
+const APPURL = 'https://makeup-api.herokuapp.com/api/v1/products.json';
 export const initialstate = [];
 const GETMAKEUP = 'components/home/GET_MAKEUP';
 

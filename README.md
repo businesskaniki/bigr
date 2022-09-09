@@ -3,6 +3,10 @@
 
 >this is a single page react application that calls a beaty api which returns makeup products and their details . this app helps a user seach for a makeup product and look at its rating proce among many other 
 
+## live demo at :
+
+(kings and queens)[https://the-great-businesskaniki-site.netlify.app/]
+
 
 ## Built With
 
@@ -58,7 +62,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- https://creativecommons.org/licenses/by-nc/4.0/
+- (nelson sakwa)[https://creativecommons.org/licenses/by-nc/4.0/]
 
 ## 📝 License
 
